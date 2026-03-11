@@ -121,18 +121,6 @@ These insights help teams build **more balanced, data-driven squads for future I
 
 ---
 
-## 📁 Repository Structure
-
-```
-ipl-performance-analytics/
-│
-├── IPL_Dashboard.pbix          # Power BI dashboard file
-├── Dataset/
-│   └── ipl_data_2020_2025.xlsx # Source dataset
-├── dashboard-preview.png       # Dashboard screenshot
-└── README.md                   # Project documentation
-```
-
 ## 👤 Author
 
 **Raju Kumar S**

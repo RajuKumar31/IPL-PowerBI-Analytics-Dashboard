@@ -1,19 +1,21 @@
 # IPL-PowerBI-Analytics-Dashboard
 Interactive Power BI dashboard analyzing IPL player and team performance from 2020–2025.
 
-# 🏏 IPL Performance Analytics Dashboard (2020–2025)
+ # 🏏 IPL Performance Analytics Dashboard (2020–2025)
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge\&logo=powerbi\&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge\&logo=microsoft-excel\&logoColor=white)
+![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge\&logo=microsoft\&logoColor=white)
 
 ---
 
 ## 📌 Project Overview
 
-An interactive Power BI dashboard analyzing **Indian Premier League (IPL) player and team performance** across six seasons (2020–2025). The project transforms raw cricket data into actionable insights covering batting, bowling, team contributions, and nationality-based performance breakdowns.
+This project presents an **interactive Power BI dashboard** that analyzes Indian Premier League (IPL) player and team performance across six seasons (**2020–2025**).
 
-> Built to demonstrate how historical cricket data can drive smarter squad strategies and auction decisions for IPL 2026.
+The dashboard transforms raw cricket data into meaningful insights covering **batting performance, bowling impact, team contributions, and nationality-based player analysis**.
+
+The goal of this project is to demonstrate how **historical cricket data can support smarter squad planning and auction strategies for future IPL seasons, including IPL 2026**.
 
 ---
 
@@ -25,74 +27,96 @@ An interactive Power BI dashboard analyzing **Indian Premier League (IPL) player
 
 ## 🔢 Key Metrics (2020–2025)
 
-| Metric | Value |
-|---|---|
-| 🏃 Total Runs | 41K |
-| 🎯 Total Wickets | 1,176 |
-| 🏆 Top Run Scorer | KL Rahul |
+| Metric              | Value          |
+| ------------------- | -------------- |
+| 🏃 Total Runs       | 41K            |
+| 🎯 Total Wickets    | 1,176          |
+| 🏆 Top Run Scorer   | KL Rahul       |
 | 🏆 Top Wicket Taker | Mohammed Shami |
 
 ---
 
 ## 📈 Dashboard Features
 
-| Feature | Description |
-|---|---|
-| **Interactive Slicers** | Filter by Season, Team, Player, Role, and Nationality |
-| **KPI Cards** | Live metrics for Total Runs, Total Wickets, and Top Performers |
-| **Total Runs by IPL Season** | Year-on-year run trend across all 6 seasons |
-| **Top 15 Run Scorers** | Ranked batting leaderboard across the full dataset |
-| **Top 15 Wicket Takers** | Ranked bowling leaderboard across the full dataset |
-| **Runs Scored by Team** | Side-by-side franchise run contribution comparison |
-| **Indian vs Overseas Contribution** | Donut chart breakdown — Indian: 43.07% · Overseas: 56.93% |
+| Feature                             | Description                                                         |
+| ----------------------------------- | ------------------------------------------------------------------- |
+| **Interactive Slicers**             | Filter the dashboard by Season, Team, Player, Role, and Nationality |
+| **KPI Cards**                       | Displays total runs, total wickets, and top performers dynamically  |
+| **Total Runs by IPL Season**        | Visualizes year-on-year scoring trends across all seasons           |
+| **Top 15 Run Scorers**              | Highlights the most consistent batting performers                   |
+| **Top 15 Wicket Takers**            | Identifies the most effective bowlers across seasons                |
+| **Runs Scored by Team**             | Compares batting contribution across IPL franchises                 |
+| **Indian vs Overseas Contribution** | Donut chart showing batting contribution by nationality             |
 
 ---
 
 ## 🗂️ Dataset
 
-The dataset covers IPL player performance data from **2020 to 2025** and includes the following fields:
+The dataset contains IPL player performance data from **2020 to 2025**, including:
 
-- Player Name
-- Team
-- Matches Played
-- Runs Scored
-- Wickets Taken
-- Strike Rate
-- Batting Average
-- Best Bowling Figures
-- Nationality (Indian / Overseas)
+* Player Name
+* Team
+* Matches Played
+* Runs Scored
+* Wickets Taken
+* Strike Rate
+* Batting Average
+* Best Bowling Figures
+* Nationality (Indian / Overseas)
+
+---
+
+## 📅 Why 2020–2025?
+
+The analysis focuses on the **2020–2025 IPL seasons** because they represent the **modern T20 era**, where aggressive batting strategies, data-driven team management, and stable franchise structures provide meaningful trends for performance analysis.
+
+Using six seasons of data allows teams and analysts to:
+
+* Identify **consistent performers**
+* Evaluate **long-term player impact**
+* Detect **team performance trends**
+* Make **more reliable strategic decisions**
 
 ---
 
 ## 🧠 Key Insights
 
-- **KL Rahul** leads all batsmen in total runs across the 2020–2025 period
-- **Mohammed Shami** is the highest wicket-taker in the same timeframe
-- **2025** recorded the highest total runs of any season in the dataset
-- **Overseas players** account for a slightly higher share of total runs (56.93%) compared to Indian players (43.07%)
-- **Royal Challengers Bangalore** leads all franchises in total runs scored by team
+* **KL Rahul** leads all batsmen in total runs during the 2020–2025 period.
+* **Mohammed Shami** emerges as the highest wicket-taker across these seasons.
+* **2025 recorded the highest total runs**, indicating increased scoring trends in modern T20 cricket.
+* **Overseas players contribute slightly more runs (56.93%)** compared to Indian players (43.07%).
+* **Royal Challengers Bangalore** leads all teams in total runs scored across the dataset.
 
 ---
 
 ## 🎯 Strategic Use Cases for IPL 2026
 
-Teams preparing for the 2026 auction cycle can use this dashboard to:
+Teams preparing for the **IPL 2026 season and auction cycle** can leverage these insights to improve decision-making:
 
-- 🔒 **Retention Planning** — Identify consistent performers worth locking in before auctions
-- 🎯 **Auction Targeting** — Spot high-value bowlers or middle-order batsmen by team gaps
-- ⚠️ **Dependency Analysis** — Flag over-reliance on individual players and address squad imbalance
-- ⚖️ **Squad Composition** — Optimize Indian vs. overseas ratio based on real contribution data
+* 🔒 **Retention Planning**
+  Identify consistent high-performing players worth retaining before auctions.
+
+* 🎯 **Auction Strategy**
+  Target players who strengthen weak areas such as middle-order batting or bowling depth.
+
+* ⚠️ **Dependency Analysis**
+  Detect teams that rely heavily on a small group of players and rebalance squad composition.
+
+* ⚖️ **Squad Optimization**
+  Analyze the contribution balance between **Indian and overseas players**.
+
+These insights help teams build **more balanced, data-driven squads for future IPL seasons**.
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-| Tool | Purpose |
-|---|---|
-| **Power BI** | Dashboard development and data visualization |
-| **DAX** | Custom KPI measures and calculated columns |
-| **Data Modeling** | Table relationships and schema design |
-| **Microsoft Excel** | Data cleaning, preparation, and source management |
+| Tool                | Purpose                                              |
+| ------------------- | ---------------------------------------------------- |
+| **Power BI**        | Dashboard development and interactive visualizations |
+| **DAX**             | Custom measures and KPI calculations                 |
+| **Data Modeling**   | Relationship management and schema design            |
+| **Microsoft Excel** | Data cleaning, preparation, and preprocessing        |
 
 ---
 
@@ -101,24 +125,32 @@ Teams preparing for the 2026 auction cycle can use this dashboard to:
 ```
 ipl-performance-analytics/
 │
-├── 📊 IPL_Dashboard.pbix         # Power BI dashboard file
-├── 📂 Dataset/
-│   └── ipl_data_2020_2025.xlsx   # Raw dataset
-├── 🖼️ dashboard-preview.png      # Dashboard screenshot
-└── 📄 README.md                  # Project documentation
+├── IPL_Dashboard.pbix          # Power BI dashboard file
+├── Dataset/
+│   └── ipl_data_2020_2025.xlsx # Source dataset
+├── dashboard-preview.png       # Dashboard screenshot
+└── README.md                   # Project documentation
 ```
 
 ---
 
 ## 🚀 How to Run
 
-1. Clone this repository
-   ```bash
-   git clone https://github.com/your-username/ipl-performance-analytics.git
-   ```
-2. Open `IPL_Dashboard.pbix` in **Power BI Desktop**
-3. If prompted, refresh the data source and point it to `Dataset/ipl_data_2020_2025.xlsx`
-4. Use the slicers to explore performance by season, team, player, role, or nationality
+1. Clone the repository
+
+```
+git clone https://github.com/your-username/ipl-performance-analytics.git
+```
+
+2. Open **IPL_Dashboard.pbix** in Power BI Desktop.
+
+3. If prompted, refresh the dataset and link the source file:
+
+```
+Dataset/ipl_data_2020_2025.xlsx
+```
+
+4. Use the slicers to explore performance by **season, team, player, role, or nationality**.
 
 ---
 
@@ -126,11 +158,7 @@ ipl-performance-analytics/
 
 **Raju Kumar S**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/your-profile)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)](https://github.com/your-username)
+Data Analytics | Power BI | SQL | Excel
 
----
-
-## 📃 License
-
-This project is open source and available under the [MIT License](LICENSE).
+[LinkedIn](https://linkedin.com/in/your-profile)
+[GitHub](https://github.com/your-username)

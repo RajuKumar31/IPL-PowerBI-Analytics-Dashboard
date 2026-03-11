@@ -21,7 +21,8 @@ The goal of this project is to demonstrate how **historical cricket data can sup
 
 ## 📊 Dashboard Preview
 
-![IPL Performance Analytics Dashboard](./dashboard-preview.png)
+<img width="1238" height="753" alt="Screenshot 2026-03-11 132357" src="https://github.com/user-attachments/assets/dc523181-8f04-4a99-8c9e-8b99507aec20" />
+
 
 ---
 
@@ -97,7 +98,7 @@ Teams preparing for the **IPL 2026 season and auction cycle** can leverage these
   Identify consistent high-performing players worth retaining before auctions.
 
 * 🎯 **Auction Strategy**
-  Target players who strengthen weak areas such as middle-order batting or bowling depth.
+  Target players who strengthen weak areas, such as middle-order batting or bowling depth.
 
 * ⚠️ **Dependency Analysis**
   Detect teams that rely heavily on a small group of players and rebalance squad composition.
@@ -132,33 +133,15 @@ ipl-performance-analytics/
 └── README.md                   # Project documentation
 ```
 
----
-
-## 🚀 How to Run
-
-1. Clone the repository
-
-```
-git clone https://github.com/your-username/ipl-performance-analytics.git
-```
-
-2. Open **IPL_Dashboard.pbix** in Power BI Desktop.
-
-3. If prompted, refresh the dataset and link the source file:
-
-```
-Dataset/ipl_data_2020_2025.xlsx
-```
-
-4. Use the slicers to explore performance by **season, team, player, role, or nationality**.
-
----
-
 ## 👤 Author
 
 **Raju Kumar S**
-
 Data Analytics | Power BI | SQL | Excel
 
-[LinkedIn](https://linkedin.com/in/your-profile)
-[GitHub](https://github.com/your-username)
+🔗 **LinkedIn:**
+https://www.linkedin.com/in/rajukumarsahani
+
+💻 **GitHub:**
+https://github.com/RajuKumar31
+/>
+
